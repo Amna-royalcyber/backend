@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "64424d52cb49061c8f0c7812"
+  },
+  "username": "admin",
+  "email": "admin@royalcyber.com",
+  "password": "$2a$10$sGifOqFXw7ltsa2ciJfpP.VBZFop.i5piHWelBCfNimO.XtddRKoW",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "64424556979758d5d49a8d7a"
+      }
+    },
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "64424556979758d5d49a8d79"
+      }
+    }
+  ],
+  "_class": "com.rc.endevo_to_distributed_SCM.login_module.entities.User"
+},{
+  "_id": {
+    "$oid": "644950a00f8bb50b6fe2dbb8"
+  },
+  "username": "king",
+  "email": "king@gmail.com",
+  "password": "$2a$10$G.lbCXFgInExjjPqHUbl7.SmnkFH3D/lERel5EG7MYpya7vqtxJGS",
+  "roles": [
+    {
+      "$ref": "roles",
+      "$id": {
+        "$oid": "64424556979758d5d49a8d7a"
+      }
+    }
+  ],
+  "_class": "com.rc.endevo_to_distributed_SCM.login_module.entities.User"
+}]
